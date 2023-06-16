@@ -7,7 +7,7 @@ const Male = () => {
   return (
     <div>
         <div className='container'>
-            <div className=' flex justify-between'>
+            <div className=' lg:flex justify-between'>
                 <ProductCard title='Raglan Sweatshirt' price={195} img={promale1} />
                 <ProductCard title='Flex Sweatshirt' price={75} img={promotions2} />
                 <ProductCard title='Flex Push Button Bomber' price={225} img={promotion3} />

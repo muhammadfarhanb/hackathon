@@ -35,7 +35,7 @@ const Allproduct = () => {
 
             </div>
             {/* third row */}
-            <div className='flex justify-between'>
+            <div className='lg:flex justify-between'>
                 <ProductCard title='Brushed Bomber' price={225} img={profemal5} />
                 <ProductCard title='Raglan Sweatshirt' price={195} img={promale1} />
                 <ProductCard title='Flex Sweatshirt' price={75} img={promotions2} />
