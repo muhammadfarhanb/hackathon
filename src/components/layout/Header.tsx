@@ -4,7 +4,6 @@ import logo from '/public/image/logo.webp';
 import Link from 'next/link';
 import { AiOutlineShoppingCart } from 'react-icons/ai';
 import { AiOutlineSearch } from 'react-icons/ai';
-import { NavigationMenuDemo } from './Navlink';
 import { GiHamburgerMenu } from 'react-icons/gi';
 
 
@@ -13,23 +12,26 @@ const Header = () => {
     <div className='bg-white '>
         <div className='container flex justify-around flex-wrap  p-6 '>
             {/* logo div */}
+            <Link href={"/"}>
             <div className=''>
                 <Image src={logo} alt='logo' />
             </div>
+            </Link>
             {/* navigation bar */}
-            
-            <div className="navbar-center hidden lg:flex lg:gap-16">
-                <ul className="menu menu-horizontal px-1">
-                    <GiHamburgerMenu  className='lg:hidden'/>
-                     <NavigationMenuDemo />
-                </ul>
-                {/* Search bar */}
-                <div className='flex items-center border rounded-md hover:border-black h-6 '>
-                <AiOutlineSearch className='text-black text-xl ' />
-                <input  type="text" placeholder='What you looking for' className='text-sm  w-72' />
-                </div>
+            <div className='flex gap-10 font-semibold '>
                 
+               <Link href={"Category/female"}>Female</Link>
+               <Link href={"Category/male"}>Male</Link>
+               <Link href={"Category/kids"}>Kids</Link>
+               <Link href={"AllProduct"}>AllProducts</Link>
             </div>
+            {/* Search bar */}
+            <div className='flex items-center border rounded-md hover:border-black h-6 '>
+                <AiOutlineSearch className='text-black text-xl font-semibold ' />
+                <input  type="text" placeholder='What you looking for' className='text-sm  w-72' />
+            </div>
+                
+            
             {/* shopping cart */}
 
             <div className='text-black bg-gray-200 rounded-full w-8 h-8 flex justify-center items-center'>
