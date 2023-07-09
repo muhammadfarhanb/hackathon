@@ -23,7 +23,7 @@ const Header = () => {
                <Link href={"Category/female"}>Female</Link>
                <Link href={"Category/male"}>Male</Link>
                <Link href={"Category/kids"}>Kids</Link>
-               <Link href={"AllProduct"}>AllProducts</Link>
+               <Link href={"/AllProduct"}>AllProducts</Link>
             </div>
             {/* Search bar */}
             <div className='flex items-center border rounded-md hover:border-black h-6 '>
