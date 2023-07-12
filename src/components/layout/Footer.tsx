@@ -57,7 +57,7 @@ const Footer = () => {
         </div>
         <div>
             <hr className='border-1 border-black'/>
-            <div className='container lg:flex justify-around'>
+            <div className='container lg:flex justify-around m-4'>
                 <h2 className='text-lg my-3 text-gray-400 lg:text-xl lg:w-1/6'>Copyright © 2022 Dine Market</h2>
                 <h2 className='text-lg my-3 font-semibold lg:text-xl lg:w-1/6'>Design by. Weird Design Studio</h2>
                 <h2 className='text-lg my-3 font-semibold lg:text-sm lg:w-1/6'>Code by. muhammadfarhanb on github</h2>
