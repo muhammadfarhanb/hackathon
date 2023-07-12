@@ -56,7 +56,7 @@ export default function page ({params} : {params : {id : string}}){
                 </div>
                    {/* price and button */}
 
-                 <div className='flex items-center gap-6 py-'>
+                 <div className='flex items-center gap-6 '>
                     <Button className='bg-black md:text-lg gap-2 rounded-none shadow-md'>
                         <AiOutlineShoppingCart className=''/>
                       Add to Cart
@@ -73,7 +73,7 @@ export default function page ({params} : {params : {id : string}}){
       </div>
           {/* product deatail */}
             <div className='bg-gray-50 md:m-14'>
-              <div className='m-14 py-14'>
+              <div className=' m-8 md:m-14 py-14'>
                   <h1 className='text-xl md:text-4xl font-bold'>Product Information </h1>
                   <hr className='border-black mt-8 '/>
 
