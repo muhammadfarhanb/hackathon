@@ -19,7 +19,7 @@ const Header = () => {
         };
   return (
     <div className='bg-white '>
-        <div className=' flex justify-between flex-wrap  p-6 '>
+        <div className=' flex justify-between md:justify-around  flex-wrap  p-6 '>
             {/* logo div */}
             <Link href={"/"}>
             <div className=''>
